@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maks Barandiy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+.wrap{ width: 100%;
+height: 100vh;
+display: flex;}
+
+.wrapLeft{width: 50%;height: 100vh;
+background-color: weat;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;}
+.wrapRight{width: 50%;height: 100vh;
+background-color: rb(228, 38, 38);
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+.cards{height: 300px;width: 200px;
+background-color: blak;border-radius: 15px;}
+.maks{margin: 30px;}
+.it{margin: 10px;}
+.btns{display: flex;}
+.social{display: flex;}
+.item{width: 50px;height: 50px;
+background-color: rgb(255, 255, 255);
+border-radius: 50%;
+margin: 0 10px;}
+.btn{
+    padding: 15px 30px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif; margin-bottom: 9px;text-decoration: none;
+}
+p{margin: 50px 0;font-size: 24px;
+color: #666;}
+h2{font-size: 32px;}
+.sla{color: orange;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.insta{background-image: url(insta.png);
+background-size: cover;}
+.face{background-image: url(face.png);
+background-size: cover;}
+.yout{background-image: url(yout.png);
+background-size: cover;}
+.insta:hover {position: relative;
+top: -3px;transition: 1s;cursor: pointer;}
+.face:hover {position: relative;
+top: -3px;transition: 1s;cursor: pointer;}
+.yout:hover{position: relative;
+top: -3px;transition: 1s;cursor: pointer;}
+.btn:hover{background-color: #333;
+color: #fff;
+transform: 0.3s;
+cursor: pointer;}
+@media screen and (max-width:1180px) {
+    .wrapLeft{}
+    .wrapRight{margin-top: 100%;margin-right: 50%;}
+}
+@media  screen and (max-width:1015px) {
+    .wrapRight{margin-bottom: 50%;}
+}
+@media screen and (max-width: 985px;) {
+    .p{display: flex;}
+}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="wrapLeft">
+            <div class="cards"><img src="https://garda-post.com/wp-content/uploads/2017/08/trech_4.jpg" alt="" style="height: 500px; width: 490px;margin-left: 100px;margin-top: 60px;" class="pravda"></div>
+        </div>
+        <div class="wrapRight">
+            <h2 class="maks">Maks Barandiy</h2>
+            <div class="conternt">
+            <h1 class="it">A WEB developer <br> baced in <span class="sla">/</span> Creator IT academy </h1>
+            
+            <p>I am passionate about the process of design thinking and will continue to work on creating various projects.I enjoy creating meaningful and great digital products that balance user needs and business goals.I hope that I will contribute to the development of IT sciences.And I want to create many projects that will interest you.</p>
+      <div class="btns">
+          <a href="port1.html" class="btn"> My portfolio</a>
+          <a href="port2.html" class="btn">About me</a>
+      </div>
+        </div>
+        <div class="social">
+           <a href="https://www.instagram.com/__makss__13/?hl=uk"> <div class="item insta"></div></a>
+            <a href="https://www.facebook.com/profile.php?id=100046162540226"><div class="item face"></div></a>
+            <a href="https://www.youtube.com/channel/UCFD-dPPpb5vrzLxaadiEa_Q/featured"><div class="item yout"></div></a>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
